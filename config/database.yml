@@ -1,0 +1,24 @@
+# PostgreSQL. Versions 9.3 and up are supported.
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: bolg_app_development
+  username: postgres
+  password: 54321
+  
+test:
+  <<: *default
+  database: blog_app_test
+  username: postgres
+  password: 54321
+
+production:
+  <<: *default
+  database: blog_app_production
+  username: blog_app
+  password: <%= ENV["HELLORAILS_DATABASE_PASSWORD"] %>
