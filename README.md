@@ -67,7 +67,7 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
- https://github.com/Atril33/blog_app.git
+ https://github.com/Atril33/rails_blog_app.git
 ```
 
 ### Install
