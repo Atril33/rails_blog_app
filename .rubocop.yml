@@ -9,6 +9,7 @@ AllCops:
     - "node_modules/**/*"
     - "Gemfile"
     - "app/**/*"
+    - "spec/**/*"
     - "test/**/*"
 
   DisplayCopNames: true
