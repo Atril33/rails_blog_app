@@ -43,6 +43,7 @@
 
 - [x] Creating a data model
 - [x] Processing data in models
+- [x] Validations and Model specs
 
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
@@ -68,7 +69,8 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
- https://github.com/Atril33/rails_blog_app.git
+https://github.com/Atril33/rails_blog_app.git
+
 ```
 
 ### Install
@@ -120,7 +122,6 @@ To run the project, open your project in your terminal
 ## 🔭 Future Features <a name='future-features'></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-- [ ] Validations and Model specs
 - [ ] Setup and controllers
 - [ ] Controllers specs
 - [ ] Views

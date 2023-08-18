@@ -7,7 +7,7 @@ default: &default
 
 development:
   <<: *default
-  database: bolg_app_development
+  database: blog_app_development
   username: postgres
   password: 54321
   
