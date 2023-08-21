@@ -44,6 +44,7 @@
 - [x] Creating a data model
 - [x] Processing data in models
 - [x] Validations and Model specs
+- [x] Setup and controllers
 
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
@@ -122,7 +123,6 @@ To run the project, open your project in your terminal
 ## 🔭 Future Features <a name='future-features'></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-- [ ] Setup and controllers
 - [ ] Controllers specs
 - [ ] Views
 - [ ] Forms
