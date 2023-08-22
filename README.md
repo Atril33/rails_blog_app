@@ -1,4 +1,6 @@
-
+<div align="center">
+  <img src="https://github.com/Atril33/rails_blog_app/blob/dev/my-logo.png" />
+  </div>
 <!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
 
@@ -45,6 +47,7 @@
 - [x] Processing data in models
 - [x] Validations and Model specs
 - [x] Setup and controllers
+- [x] Controllers specs
 
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
@@ -92,10 +95,6 @@ To run the project, open your project in your terminal
 ```
 
 ```sh
- cd bin
-```
-
-```sh
  rails db:migrate RAILS_ENV=development
 ```
 
@@ -123,7 +122,6 @@ To run the project, open your project in your terminal
 ## 🔭 Future Features <a name='future-features'></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-- [ ] Controllers specs
 - [ ] Views
 - [ ] Forms
 - [ ] Integration specs for Views and fixing n+1 problems
