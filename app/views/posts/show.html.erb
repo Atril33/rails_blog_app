@@ -1,1 +1,26 @@
-<h1>I am a user/s specific post page!</h1>
+<div class="main-container">
+
+    <div class="user-posts">
+
+<div class="top-info">
+      <b>Post: <%= @index %> <%=link_to @user.name, "/users" %></b>
+
+      <div class="coutner-cont-posts">
+      <h6>Comments: <%= @post.comments.count %></h6>
+      <h6>Likes: <%= @post.likes.count %></h6>
+      </div>
+</div>
+<p class="post-text">
+<%= @post.text %>
+</p>
+ <% @post.comments.each do |comment| %>
+  <p class="comment-show">
+  <%= comment.author.name %>: <%= comment.text %>
+  </p>
+<% end %>
+
+<%# <%= render 'comments/new', user: @user, post: @post %>
+</div>
+
+
+</div>

@@ -1,1 +1,31 @@
-<h1>I am a specific user!</h1>
+<div class="main-container">
+
+<div class="user-wrapper">
+<div class="user-img">
+<img src="<%= @user.photo %>" class="user-image">
+</div>
+<div class="info-user">
+<h1><%= link_to @user.name, users_path %></h1>
+  <h5>Number of posts: <%= @user.posts.count %></h5>
+</div>
+</div>
+
+<div class="bio-wrapper">
+  <b>Bio:</b>
+  <p><%= @user.bio %></p>
+</div>
+
+<% @user.recent_user_posts.each_with_index do |post, index| %>
+    <div class="user-posts <%= 'hidden' if index >= 3 %>">
+      <b>Post:<%= index + 1 %> <%= @user.name %></b>
+      <p class="post-text">
+<%= link_to post.text, user_post_path(@user, post) %>
+</p>
+      <div class="coutner-count">
+      <h6>Comments: <%= post.comments.count %></h6>
+      <h6>Likes: <%= post.likes.count %></h6>
+      </div>
+    </div>
+  <% end %>
+ <button class="show-all-btn"><%= link_to "Show All Posts", user_posts_path(@user) %></button>
+</div>
