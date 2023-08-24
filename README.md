@@ -48,6 +48,7 @@
 - [x] Validations and Model specs
 - [x] Setup and controllers
 - [x] Controllers specs
+- [x] Views
 
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
@@ -122,7 +123,6 @@ To run the project, open your project in your terminal
 ## 🔭 Future Features <a name='future-features'></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-- [ ] Views
 - [ ] Forms
 - [ ] Integration specs for Views and fixing n+1 problems
 - [ ] Add Devise
