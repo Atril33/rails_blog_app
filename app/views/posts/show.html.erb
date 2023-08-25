@@ -19,7 +19,12 @@
   </p>
 <% end %>
 
-<%= render partial: 'comments/comment', locals: { post: @post } %>
+<form action="<%= post_comments_path(@post) %>" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <textarea name="comment[text]" rows="6" cols="20"></textarea>
+  <input type="submit" value="Submit">
+</form>
+
 <%= render partial: 'likes/like', locals: { post: @post } %>
 
 </div>
