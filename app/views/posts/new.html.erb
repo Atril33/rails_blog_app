@@ -1,0 +1,12 @@
+<div class="new-post-container">
+<div class="post-small-container">
+<%= form_with model: @post do |f| %>
+<%= f.text_field :title, placeholder: "Enter Post Title", class: "post-text-field" %>
+<%= f.text_area :text, placeholder: "Enter Post Text", class: "post-text-field" %>
+<%= f.submit "Add Post", class: "post-btn" %>
+<% end %>
+<% if flash[:notice] %>
+  <p><%= flash[:notice] %></p>
+<% end %>
+</div>
+</div>

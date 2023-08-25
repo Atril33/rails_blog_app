@@ -19,7 +19,9 @@
   </p>
 <% end %>
 
-<%# <%= render 'comments/new', user: @user, post: @post %>
+<%= render partial: 'comments/comment', locals: { post: @post } %>
+<%= render partial: 'likes/like', locals: { post: @post } %>
+
 </div>
 
 
