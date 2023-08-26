@@ -18,14 +18,10 @@
   <%= comment.author.name %>: <%= comment.text %>
   </p>
 <% end %>
-
-<form action="<%= post_comments_path(@post) %>" method="post">
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-  <textarea name="comment[text]" rows="6" cols="20"></textarea>
-  <input type="submit" value="Submit">
-</form>
-
+<div class="forms-btns">
+<%= link_to "Add Comment", new_post_comment_path(@post), class: "form-btn" %>
 <%= render partial: 'likes/like', locals: { post: @post } %>
+</div>
 
 </div>
 

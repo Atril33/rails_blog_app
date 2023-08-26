@@ -146,3 +146,15 @@ h6 {
   width: 100px;
   padding: 7px 9px;
 }
+
+.forms-btns {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-btn {
+  padding: 4px 10px;
+  background: #5e5f5f;
+  border-radius: 2px;
+}
