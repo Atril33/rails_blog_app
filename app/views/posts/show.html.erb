@@ -18,8 +18,11 @@
   <%= comment.author.name %>: <%= comment.text %>
   </p>
 <% end %>
+<div class="forms-btns">
+<%= link_to "Add Comment", new_post_comment_path(@post), class: "form-btn" %>
+<%= render partial: 'likes/like', locals: { post: @post } %>
+</div>
 
-<%# <%= render 'comments/new', user: @user, post: @post %>
 </div>
 
 
