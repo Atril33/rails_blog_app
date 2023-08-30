@@ -15,6 +15,7 @@ class PostsController < ApplicationController
     @post = Post.new
   end
 
+  
   def create 
     @post = current_user.posts.new(post_params)
     
@@ -25,6 +26,12 @@ class PostsController < ApplicationController
       render :new
       flash[:notice] = 'Post is not created!'
   end
+end
+
+def destroy
+  @post = Post.find(params[:id])
+  @post.destroy
+  @user = current_user
 end
 
 private
