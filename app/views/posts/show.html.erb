@@ -18,9 +18,7 @@
   <%= comment.author.name %>: <%= comment.text %>
   </p>
 
-        <% if can? :destroy, comment %>
-  <%= button_to 'DELETE Comment', post_comment_path(@post, comment), method: :delete %>
-<% end %>
+
 
 <% end %>
 <div class="forms-btns">
