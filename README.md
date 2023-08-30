@@ -50,6 +50,7 @@
 - [x] Controllers specs
 - [x] Views
 - [x] Forms
+- [x] Add Devise
 
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
@@ -117,6 +118,12 @@ To run the project, open your project in your terminal
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
 - Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
 
+👤 **Henry Odongo**
+
+- GitHub: [@githubhandle](https://github.com/Odongo006)
+- Twitter: [@twitterhandle](https://twitter.com/HenryOdongo007)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/henry-odongo/)
+
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -125,7 +132,6 @@ To run the project, open your project in your terminal
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 - [ ] Integration specs for Views and fixing n+1 problems
-- [ ] Add Devise
 - [ ] Add authorization rules
 - [ ] Add API endpoints
 
