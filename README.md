@@ -118,6 +118,12 @@ To run the project, open your project in your terminal
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
 - Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
 
+👤 **Henry Odongo**
+
+- GitHub: [@githubhandle](https://github.com/Odongo006)
+- Twitter: [@twitterhandle](https://twitter.com/HenryOdongo007)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/henry-odongo/)
+
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
