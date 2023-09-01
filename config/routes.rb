@@ -5,14 +5,7 @@ Rails.application.routes.draw do
       get 'comments/create'
     end
   end
-   namespace :api do
-    namespace :jsondata do
-      resources :users, only: [] do
-        resources :posts, only: [:index] do
-          resources :comments, only: [:index, :create]
-        end
-      end
-    end
+  
   end
 
   devise_for :users, controllers: { registrations: 'registrations' }
