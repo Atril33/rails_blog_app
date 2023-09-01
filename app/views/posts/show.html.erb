@@ -11,7 +11,9 @@
       </div>
 </div>
 <p class="post-text">
-<%= @post.text %>
+<%= @post.title %>
+<br>
+<%= link_to @post.text, user_post_path(@user, @post) %>
 </p>
  <% @post.comments.each do |comment| %>
   <p class="comment-show">

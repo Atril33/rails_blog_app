@@ -50,6 +50,7 @@
 - [x] Controllers specs
 - [x] Views
 - [x] Forms
+- [x] Integration specs for Views and fixing
 
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 

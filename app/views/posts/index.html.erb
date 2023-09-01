@@ -17,6 +17,8 @@
       <b>Post:<%= index + 1 %> <%= @user.name %></b>
       <p class="post-text">
       <p class="post-text">
+<%= post.title %>
+<br>
 <%=link_to post.text, user_post_path(@user, post) %>
 </p>
 

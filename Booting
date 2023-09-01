@@ -1,0 +1,10 @@
+*** SIGUSR2 not implemented, signal based restart unavailable!
+*** SIGUSR1 not implemented, signal based restart unavailable!
+*** SIGHUP not implemented, signal based logs reopening unavailable!
+Puma starting in single mode...
+* Puma version: 5.6.7 (ruby 3.2.2-p53) ("Birdie's Version")
+*  Min threads: 5
+*  Max threads: 5
+*  Environment: development
+*          PID: 10036
+! Unable to load application: Gem::LoadError: You have already activated puma 5.6.7, but your Gemfile requires puma 5.6.6. Prepending `bundle exec` to your command may solve this.
