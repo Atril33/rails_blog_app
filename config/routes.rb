@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  namespace :api do
+    namespace :jsondata do
+      get 'comments/index'
+      get 'comments/create'
+    end
+  end
+   namespace :api do
+    namespace :jsondata do
+      resources :users, only: [] do
+        resources :posts, only: [:index] do
+          resources :comments, only: [:index, :create]
+        end
+      end
+    end
+  end
+
   devise_for :users, controllers: { registrations: 'registrations' }
 
   post '/posts', to: 'posts#create', as: 'posts'

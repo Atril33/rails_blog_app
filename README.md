@@ -52,6 +52,7 @@
 - [x] Forms
 - [x] Add Devise
 - [x] Add authorization rules
+- [x] Add API endpoints
 
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
@@ -133,7 +134,6 @@ To run the project, open your project in your terminal
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 - [ ] Integration specs for Views and fixing n+1 problems
-- [ ] Add API endpoints
 
 
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
