@@ -20,6 +20,12 @@ RSpec.describe 'Post #index Page', type: :feature do
     @comment5 = Comment.create(post: @post1, author: @user1, text: 'Hi Tom!' )
     @comment6 = Comment.create(post: @post1, author: @user1, text: 'Hi Tom!' )
 
+    Like.new(user: @user1, post: @post1)
+  end
+
+  it 'I can see the user/s profile picture.' do
+    visit user_posts_path(@user1)
+    expect(page.html).to include(@user1.photo)
   end
 
   it 'I can see the user/s username' do
