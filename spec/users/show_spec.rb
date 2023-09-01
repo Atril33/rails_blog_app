@@ -8,10 +8,7 @@ RSpec.describe 'User #Show Page', type: :feature do
    
     @post1 = Post.create(author: @user1, title: 'Hello', text: 'This is my 1st post')
     @post2 = Post.create(author: @user1, title: 'Hello', text: 'This is my 2nd post')
-    @post3 = Post.create(author: @user1, title: 'Hello', text: 'This is my 3rd post')
-    @post4 = Post.create(author: @user1, title: 'Hello', text: 'This is my 4th post')
-    @post5 = Post.create(author: @user1, title: 'Hello', text: 'This is my 5th post')
-    @post6 = Post.create(author: @user1, title: 'Hello', text: 'This is my 6th post')
+
 
   end
 
