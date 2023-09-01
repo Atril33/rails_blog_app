@@ -1,4 +1,5 @@
 <div class="main-container">
+<%= button_to 'Log out', destroy_user_session_path, method: :delete %>
 <% @users.each do |user| %>
 <div class="user-wrapper">
 <div class="user-img">

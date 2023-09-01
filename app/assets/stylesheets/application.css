@@ -158,3 +158,36 @@ h6 {
   background: #5e5f5f;
   border-radius: 2px;
 }
+
+.register-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.enter-field {
+  width: 250px;
+  padding: 6px;
+}
+
+.actions {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.signup-btn,
+.login-btn {
+  width: 100px;
+  padding: 6px 0;
+  background: rgb(158, 250, 158);
+  border: none;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+}

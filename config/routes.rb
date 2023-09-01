@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users, controllers: { registrations: 'registrations' }
 
   post '/posts', to: 'posts#create', as: 'posts'
   
@@ -7,10 +8,11 @@ Rails.application.routes.draw do
   end
   
   resources :posts do
-    resources :comments, only: [:create, :new]
+    resources :comments, only: [:create, :new, :destroy]
     resources :likes, only: [:create]
   end
-  # Define the root path route ("/")
-  # root "controller_name#action_name"
-  # Example: root "users#index"
+
+  delete '/posts/:id', to: 'posts#destroy', as: 'destroy_post'
+
+  root "users#index"
 end
