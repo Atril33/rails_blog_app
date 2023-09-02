@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
   namespace :api do
-    namespace :jsondata do
+    namespace :v1 do
       get 'comments/index'
       get 'comments/create'
     end
   end
    namespace :api do
-    namespace :jsondata do
+    namespace :v1 do
       resources :users, only: [] do
         resources :posts, only: [:index] do
           resources :comments, only: [:index, :create]
