@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/Atril33/budget-app/blob/logic-done/Preview%20Image.png" />
+
   </div>
 <!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
